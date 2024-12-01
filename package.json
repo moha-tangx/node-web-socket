@@ -1,0 +1,23 @@
+{
+  "name": "web-socket",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "pricing": "Free",
+  "packageManager": "^npm@10.9.0",
+  "scripts": {
+    "test": "node --watch --experimental-strip-types --experimental-transform-types --no-warnings ./test/test.ts"
+  },
+  "keywords": [
+    "web-sockets",
+    "web-socket",
+    "webSocket",
+    "socket"
+  ],
+  "author": "moha_tangx",
+  "license": "MIT",
+  "description": "a simple implemantaion of the websocket protocol"
+}
